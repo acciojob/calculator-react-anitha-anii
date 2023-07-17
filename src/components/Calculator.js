@@ -85,8 +85,8 @@ const Calculator = () => {
         <button id="btn-0" onClick={() => handleNumberClick(0)}>0</button>
         <button id="plus" onClick={() => handleOperatorClick('+')}>+</button>
         <button id="btn--" onClick={() => handleOperatorClick('-')}>-</button>
-        <button id="btn//" onClick={() => handleOperatorClick('/')}>/</button>
-        <button id="btn**" onClick={() => handleOperatorClick('*')}>*</button>
+        <button id="btn-div" onClick={() => handleOperatorClick('/')}>/</button>
+        <button id="btn-mul" onClick={() => handleOperatorClick('*')}>*</button>
         <button id="equal" onClick={handleEqualsClick}>=</button>
         <button id="btn-clear" onClick={handleClearAllClick}>C</button>
       </div>
