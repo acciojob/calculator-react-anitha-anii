@@ -72,7 +72,7 @@ const Calculator = () => {
   return (
     <div className="Calculator">
       <div className="display">{displayValue}</div>
-      <div className="btn-row">
+      <div id="calci">
         <button id="btn-1" onClick={() => handleNumberClick(1)}>1</button>
         <button id="btn-2" onClick={() => handleNumberClick(2)}>2</button>
         <button id="btn-3" onClick={() => handleNumberClick(3)}>3</button>
@@ -83,12 +83,12 @@ const Calculator = () => {
         <button id="btn-8" onClick={() => handleNumberClick(8)}>8</button>
         <button id="btn-9" onClick={() => handleNumberClick(9)}>9</button>
         <button id="btn-0" onClick={() => handleNumberClick(0)}>0</button>
-        <button id="plus calci" onClick={() => handleOperatorClick('+')}>+</button>
-        <button id="btn-- calci" onClick={() => handleOperatorClick('-')}>-</button>
-        <button id="btn-div calci" onClick={() => handleOperatorClick('/')}>/</button>
-        <button id="btn-mul calci" onClick={() => handleOperatorClick('*')}>*</button>
-        <button id="equal calci" onClick={handleEqualsClick}>=</button>
-        <button id="btn-clear calci" onClick={handleClearAllClick}>C</button>
+        <button id="plus " onClick={() => handleOperatorClick('+')}>+</button>
+        <button id="btn-- " onClick={() => handleOperatorClick('-')}>-</button>
+        <button id="btn-div " onClick={() => handleOperatorClick('/')}>/</button>
+        <button id="btn-mul " onClick={() => handleOperatorClick('*')}>*</button>
+        <button id="equal " onClick={handleEqualsClick}>=</button>
+        <button id="btn-clear " onClick={handleClearAllClick}>C</button>
       </div>
       
     </div>
